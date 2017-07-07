@@ -8,7 +8,6 @@ android:
     - build-tools-25.0.3
     - android-25
     # Additional components
-    - extra-android-m2repository
     - extra-google-m2repository
 script:
   - ./gradlew assembleRelease
