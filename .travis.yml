@@ -13,3 +13,8 @@ android:
     - extra-google-m2repository
 script:
   - ./gradlew assembleRelease
+
+cache:
+  directories:
+    - $HOME/.gradle
+    - $HOME/.m2/repository
